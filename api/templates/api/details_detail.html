@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content-a %}
+  <div class="container">
+    <p>{{  details.name  }}<br>
+  Team {{ details.team_name }}<br>
+  Crime: {{details.category }}<br>
+
+  Date Arrested:  {{details.month}}-{{details.day}}-{{details.year}}<br><br><br><br><br><br><br>
+  <div class=arrestdetails>
+<strong><p style="color:red; font-size:14px;">{{details.description}}
+  {{details.outcome}}
+{% endblock %}
+</p></strong>
+</div>

@@ -1,6 +1,17 @@
 from django.shortcuts import render
 from tablib import Dataset
 from api.models import Player, Team, crimeCategory, Details
+from django.shortcuts import get_object_or_404
+from django.views.generic import DetailView
+
+class DetailsDetailView(DetailView):
+    context_object_name = 'details'
+    queryset = Details.objects.all()
+
+def arrest_info(request, id=id):
+    arrest_info = Details.objects.all()
+    id = Details.objects.get(id)
+    return render(request, 'arrestdetails/<int:id>', { 'arrest_info': arrest_info, 'id':id })
 
 def details(request):
     search_term= ""
