@@ -2,6 +2,15 @@ from django.shortcuts import render
 from tablib import Dataset
 from api.models import Player, Team, crimeCategory, Details
 
+def details(request):
+    search_term= ""
+    if request.GET:
+        search_term = request.GET['searchparams']
+        results = Details.objects.filter(name__icontains=search_term)
+        arrest_info = Details.objects.all()
+        return render(request, 'arrestdetails.html', {'arrest_info': arrest_info, 'results': results, 'search_term': search_term})
+    return render(request, 'arrestdetails.html',{})
+
 def searchteams(request):
     search_term= ""
     if request.GET:
