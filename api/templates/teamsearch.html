@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block content-a %}
+  <div class="container">
+            <div class="directions">
+    <p>Which NFL Team has more Convictions<br> than conversions? Use the form below to <br> search NFLArrests.com and see how many<br> players on the team have been arrested. </p>
+              </div>
+                <div class="teamsearchform">
+                  <form name="searchteams" method="GET" action="/teamsearch">
+                 <input  id="searchparams" type="text" name="searchparams"  placeholder="Search Team Arrest Data" >
+                  <button id="teamsearchsubmit" type="submit" >Submit</button>
+            </form>
+                </div>
+            </div>
+
+{% endblock %}
+
+{% block content-b %}
+{% if team_search_results %}
+ <h2>Results</h2>
+   {% for result in team_search_results %}
+  <div class="card">
+  <img src="img_avatar.png" alt="Avatar" style="width:100%">
+  <div class="card-container">
+    <h6><b>{{ result.team_preffered_name }}</b></h6>
+    <p>Arrest Count: {{ result.arrest_count }}</p>
+  </div>
+</div>
+    {% endfor %}
+{% else %}
+<div class="noresults_card">
+<div class="card-container">
+  <h6><b>No Results</b></h6>
+  <p> for {{ search_term }}.  Try searching using the following format.
+  Atlanta Falcons</p>
+</div>
+</div>
+{% endif %}
+
+{% endblock %}

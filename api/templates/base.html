@@ -1,0 +1,156 @@
+{% load static %}
+<<!DOCTYPE html>
+<head>
+
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+      <meta name="author" content="jasoncwilley">
+      <link rel="icon" href="#">
+
+      <title>NFL Arrest API</title>
+
+      <!-- Bootstrap core CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+      <!-- Place your stylesheet here-->
+  <link href="stylesheet.css" rel="stylesheet" type="text/css">
+
+
+<style>
+  .grid-container {
+    display: grid;
+    grid-template-columns: 10px 400px 400px 10px;
+    grid-template-rows: 50px 400px 300px 100px;
+    grid-template-areas: "side-a navarea navarea side-b" "side-a grid-a grid-b side-b" "side-a grid-a grid-b side-b" "footer footer footer footer";
+  }
+
+  .side-a { grid-area: side-a; }
+
+  .side-b { grid-area: side-b; background-color: blue}
+
+  .navarea { grid-area: navarea; }
+
+  .grid-a { grid-area: grid-a; margin-right: 25px}
+
+  .grid-b { grid-area: grid-b; margin-left: 220px; color:black;}
+
+  .footer { grid-area: footer; }
+
+  /* Start http://www.cursors-4u.com */ * {cursor: url(http://cur.cursors-4u.net/mechanics/mec-1/mec77.ani), url(http://cur.cursors-4u.net/mechanics/mec-1/mec77.png), auto !important;} /* End http://www.cursors-4u.com */
+
+.background {
+  background-image: url("http://oi67.tinypic.com/34eaujp.jpg");
+  margin-top: 25px;
+  width: 575px;
+  height:350px;
+  margin-left: 25px;
+  background-repeat: repeat-n;
+}
+body {
+  color: white;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  margin-right: 25px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-container {
+  padding: 2px 16px;
+}
+.noresults_card {
+  margin-top: 25px;
+}
+.directions {
+  margin-top: 25px;
+  font-size: 13px;
+}
+.search_buttons {
+  margin-left: 25px;
+}
+.button {
+  width: 100px;
+  margin-right: 35px;
+}
+.playersearchform {
+  margin-top: 120px;
+height: 25px;
+}
+.teamsearchform {
+  margin-top: 105px;
+height: 25px;
+}
+  </style>
+</head>
+
+<body>
+  <div class="grid-container">
+  <div class="side-a">
+  </div>
+
+
+  <div class="side-b">
+  </div>
+
+  <div class="navarea">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+          <a class="navbar-brand" href="#"><img src="http://oi66.tinypic.com/15frdpc.jpg" height="55px" width="55px"> </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="/playersearch">Search Players</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="/teamsearch">Search Team</a>
+                  </li>
+
+              </ul>
+
+          </div>
+  </nav>
+  </div>
+<div class = "background">
+
+  <div class="grid-a">
+    {% block content-a %}
+
+    {% endblock %}
+  </div>
+</div> <!-- end background -->
+
+  <div class="grid-b">
+    {% block content-b %}
+    {% endblock %}
+  </div>
+
+
+  <div class="footer">
+
+  </div>
+
+</div>  <!-- end grid container -->
+<!-- Bootstrap core JavaScript
+ ================================================== -->
+ <!-- Placed at the end of the document so the pages load faster -->
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>

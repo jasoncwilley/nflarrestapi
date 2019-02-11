@@ -1,0 +1,115 @@
+category,arrest_count,id
+DUI,224,1
+Drugs,107,2
+Domestic violence,101,3
+Assault,78,4
+Disorderly conduct,49,5
+Gun,34,6
+Battery,20,7
+Public intoxication,19,8
+License,18,9
+Alcohol,17,10
+Reckless driving,16,11
+Resisting arrest,16,12
+Theft,16,13
+"DUI, drugs",11,14
+Outstanding warrant,11,15
+"Drugs, gun",7,16
+Failure to appear,7,17
+Violating court order,6,18
+Sex,6,19
+"Assault, gun",6,20
+Trespassing,6,21
+Sexual assault,5,22
+Obstruction,5,23
+"Disorderly conduct, sex",4,24
+"Gun, drugs",4,25
+Animal abuse,4,26
+Probation violation,4,27
+Solicitation,3,28
+"Disorderly conduct, alcoh",3,29
+Harassment,2,30
+Indecent exposure,2,31
+"DUI, gun",2,32
+Manslaughter,2,33
+"Murder, gun",2,34
+Criminal mischief,2,35
+False information,2,36
+"Alcohol, assault",2,37
+Domestic dispute,2,38
+"Domestic violence, gun",2,39
+"Assault, alcohol",2,40
+Eluding Police,2,41
+Child support,2,42
+Burglary,2,43
+Public urination,2,44
+Domestic Battery,1,45
+"Gun, stolen possession",1,46
+Resisting officer,1,47
+"Alcohol, resisting arrest",1,48
+"Domestic violence, alcoho",1,49
+"Guns, drugs",1,50
+"Animal cruelty, drugs",1,51
+Stalking,1,52
+"Drugs, reckless driving",1,53
+"Theft, drugs",1,54
+Attempted murder,1,55
+"DUI, assault",1,56
+Leaving scene.,1,57
+Traffic warrant,1,58
+"Battery, resisting arrres",1,59
+Vandalism,1,60
+"Burglary, assault",1,61
+"DUI,drugs",1,62
+Child abuse,1,63
+Evading police,1,64
+Pimping,1,65
+Property destruction,1,66
+"Gambling, gun",1,67
+Domestic,1,68
+Reckless endangerment,1,69
+"Gun, Traffic",1,70
+Robbery,1,71
+"Guns, drugs, reckless dri",1,72
+Sexual battery,1,73
+Animal neglect,1,74
+Hit and Run,1,75
+Suspended license,1,76
+"Drugs, resisting arrest",1,77
+Injury to elderly,1,78
+"Theft, gun",1,79
+Traffic warrants,1,80
+Breach of peace,1,81
+"DUI, manslaughter",1,82
+"Manslaughter, child abuse",1,83
+"Burglary, battery",1,84
+Police interference,1,85
+False name,1,86
+Disturbing the peace,1,87
+"Reckless driving, drugs",1,88
+Domestic Assault,1,89
+"Gun, privacy invasion",1,90
+"Alcohol, disorderly condu",1,91
+Guns,1,92
+Animal cruelty,1,93
+"Domestic violence, rape",1,94
+Handicap parking,1,95
+Assasult,1,96
+"Drugs, license",1,97
+Hit-and-run,1,98
+Interfering with police,1,99
+Threat,1,100
+"Battery, alcohol",1,101
+"DUI, drugs, gun",1,102
+"License, guns",1,103
+"DUI, resisting arrest",1,104
+Murder,1,105
+Weapon,1,106
+"Burglary, gun",1,107
+Evading arrest,1,108
+"Coercion, gun",1,109
+"Failure to appear, gun",1,110
+Fraud,1,111
+Dogfighting,1,112
+"Gun, assault",1,113
+"Reckless driving, weapon",1,114

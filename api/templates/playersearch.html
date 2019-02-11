@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block content-a %}
+  <div class="container">
+        <div class="directions">
+<p>Use the form below to Search <br>NFLArrest.com API and see if your <br>favoite NFL Player has been arrested.</p>
+          </div>
+            <div class="playersearchform">
+              <form name="searchplayers" method="GET" action="/playersearch">
+             <input  id="searchparams" type="text" name="searchparams"  placeholder="Player Search" >
+              <button id="playersearchsubmit" type="submit" >Submit</button>
+        </form>
+            </div>
+        </div>
+
+{% endblock %}
+
+{% block content-b %}
+{% if results %}
+ <h2>Results</h2>
+   {% for result in results %}
+  <div class="card">
+  <img src="img_avatar.png" alt="Avatar" style="width:100%">
+  <div class="card-container">
+    <h6><b>{{ result.Name }}</b></h6>
+    <p>Arrest Count: {{ result.arrest_count }}</p>
+  </div>
+</div>
+    {% endfor %}
+{% else %}
+<div class="noresults_card">
+<div class="card-container">
+  <h6><b>No Results</b></h6>
+  <p> for {{ search_term }}.  Try searching using the following format.
+  Atlanta Falcons</p>
+</div>
+</div>
+{% endif %}
+
+{% endblock %}

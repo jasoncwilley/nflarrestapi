@@ -1,0 +1,458 @@
+[
+  {
+    "Category": "DUI",
+    "arrest_count": "224"
+  },
+  {
+    "Category": "Drugs",
+    "arrest_count": "107"
+  },
+  {
+    "Category": "Domestic violence",
+    "arrest_count": "101"
+  },
+  {
+    "Category": "Assault",
+    "arrest_count": "78"
+  },
+  {
+    "Category": "Disorderly conduct",
+    "arrest_count": "49"
+  },
+  {
+    "Category": "Gun",
+    "arrest_count": "34"
+  },
+  {
+    "Category": "Battery",
+    "arrest_count": "20"
+  },
+  {
+    "Category": "Public intoxication",
+    "arrest_count": "19"
+  },
+  {
+    "Category": "License",
+    "arrest_count": "18"
+  },
+  {
+    "Category": "Alcohol",
+    "arrest_count": "17"
+  },
+  {
+    "Category": "Reckless driving",
+    "arrest_count": "16"
+  },
+  {
+    "Category": "Resisting arrest",
+    "arrest_count": "16"
+  },
+  {
+    "Category": "Theft",
+    "arrest_count": "16"
+  },
+  {
+    "Category": "DUI, drugs",
+    "arrest_count": "11"
+  },
+  {
+    "Category": "Outstanding warrant",
+    "arrest_count": "11"
+  },
+  {
+    "Category": "Drugs, gun",
+    "arrest_count": "7"
+  },
+  {
+    "Category": "Failure to appear",
+    "arrest_count": "7"
+  },
+  {
+    "Category": "Violating court order",
+    "arrest_count": "6"
+  },
+  {
+    "Category": "Sex",
+    "arrest_count": "6"
+  },
+  {
+    "Category": "Assault, gun",
+    "arrest_count": "6"
+  },
+  {
+    "Category": "Trespassing",
+    "arrest_count": "6"
+  },
+  {
+    "Category": "Sexual assault",
+    "arrest_count": "5"
+  },
+  {
+    "Category": "Obstruction",
+    "arrest_count": "5"
+  },
+  {
+    "Category": "Disorderly conduct, sex",
+    "arrest_count": "4"
+  },
+  {
+    "Category": "Gun, drugs",
+    "arrest_count": "4"
+  },
+  {
+    "Category": "Animal abuse",
+    "arrest_count": "4"
+  },
+  {
+    "Category": "Probation violation",
+    "arrest_count": "4"
+  },
+  {
+    "Category": "Solicitation",
+    "arrest_count": "3"
+  },
+  {
+    "Category": "Disorderly conduct, alcoh",
+    "arrest_count": "3"
+  },
+  {
+    "Category": "Harassment",
+    "arrest_count": "2"
+  },
+  {
+    "Category": "Indecent exposure",
+    "arrest_count": "2"
+  },
+  {
+    "Category": "DUI, gun",
+    "arrest_count": "2"
+  },
+  {
+    "Category": "Manslaughter",
+    "arrest_count": "2"
+  },
+  {
+    "Category": "Murder, gun",
+    "arrest_count": "2"
+  },
+  {
+    "Category": "Criminal mischief",
+    "arrest_count": "2"
+  },
+  {
+    "Category": "False information",
+    "arrest_count": "2"
+  },
+  {
+    "Category": "Alcohol, assault",
+    "arrest_count": "2"
+  },
+  {
+    "Category": "Domestic dispute",
+    "arrest_count": "2"
+  },
+  {
+    "Category": "Domestic violence, gun",
+    "arrest_count": "2"
+  },
+  {
+    "Category": "Assault, alcohol",
+    "arrest_count": "2"
+  },
+  {
+    "Category": "Eluding Police",
+    "arrest_count": "2"
+  },
+  {
+    "Category": "Child support",
+    "arrest_count": "2"
+  },
+  {
+    "Category": "Burglary",
+    "arrest_count": "2"
+  },
+  {
+    "Category": "Public urination",
+    "arrest_count": "2"
+  },
+  {
+    "Category": "Domestic Battery",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Gun, stolen possession",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Resisting officer",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Alcohol, resisting arrest",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Domestic violence, alcoho",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Guns, drugs",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Animal cruelty, drugs",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Stalking",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Drugs, reckless driving",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Theft, drugs",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Attempted murder",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "DUI, assault",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Leaving scene.",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Traffic warrant",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Battery, resisting arrres",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Vandalism",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Burglary, assault",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "DUI,drugs",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Child abuse",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Evading police",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Pimping",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Property destruction",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Gambling, gun",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Domestic",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Reckless endangerment",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Gun, Traffic",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Robbery",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Guns, drugs, reckless dri",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Sexual battery",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Animal neglect",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Hit and Run",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Suspended license",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Drugs, resisting arrest",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Injury to elderly",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Theft, gun",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Traffic warrants",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Breach of peace",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "DUI, manslaughter",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Manslaughter, child abuse",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Burglary, battery",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Police interference",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "False name",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Disturbing the peace",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Reckless driving, drugs",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Domestic Assault",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Gun, privacy invasion",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Alcohol, disorderly condu",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Guns",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Animal cruelty",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Domestic violence, rape",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Handicap parking",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Assasult",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Drugs, license",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Hit-and-run",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Interfering with police",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Threat",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Battery, alcohol",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "DUI, drugs, gun",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "License, guns",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "DUI, resisting arrest",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Murder",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Weapon",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Burglary, gun",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Evading arrest",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Coercion, gun",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Failure to appear, gun",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Fraud",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Dogfighting",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Gun, assault",
+    "arrest_count": "1"
+  },
+  {
+    "Category": "Reckless driving, weapon",
+    "arrest_count": "1"
+  }
+]

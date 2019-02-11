@@ -1,0 +1,33 @@
+team,team_preffered_name, team_name,team_city,team_conference,team_conference_division,team_logo_id,arrest_count,id
+DEN,Denver Broncos,Broncos,Denver,AFC,AFC West,10,51,1
+MIN,Minnesota Vikings,Vikings,Minneapolis,NFC,NFC North,18,50,2
+CIN,Cincinnati Bengals,Bengals,Cincinnati,AFC,AFC North,7,44,3
+JAC,Jacksonville Jaguars,Jaguars,Jacksonville,AFC,AFC South,15,40,4
+TB,Tampa Bay Buccaneers,Buccaneers,Tampa Bay,NFC,NFC South,30,37,5
+TEN,Tennessee Titans,Titans,Nashville,AFC,AFC South,31,36,6
+CLE,Cleveland Browns,Browns,Cleveland,AFC,AFC North,8,35,7
+IND,Indianapolis Colts,Colts,Indianapolis,AFC,AFC South,14,35,8
+KC,Kansas City Chiefs,Chiefs,Kansas City,AFC,AFC West,16,34,9
+CHI,Chicago Bears,Bears,Chicago,NFC,NFC North,6,32,10
+MIA,Miami Dolphins,Dolphins,Miami,AFC,AFC East,17,32,11
+SEA,Seattle Seahawks,Seahawks,Seattle,NFC,NFC West,28,29,12
+SF,San Francisco 49ers,49ers,San Francisco,NFC,NFC West,27,28,13
+BAL,Baltimore Ravens,Ravens,Baltimore,AFC,AFC North,3,28,14
+LAC,Los Angeles Chargers,Chargers,Los Angeles,AFC,AFC West,26,27,15
+NO,New Orleans Saints,Saints,New Orleans,NFC,NFC South,20,26,16
+GB,Green Bay Packers,Packers,Green Bay,NFC,NFC North,12,26,17
+PIT,Pittsburgh Steelers,Steelers,Pittsburgh,AFC,AFC North,25,25,18
+NYJ,New York Jets,Jets,New York,AFC,AFC East,22,24,19
+ARI,Arizona Cardinals,Cardinals,Phoenix,NFC,NFC West,1,23,20
+OAK,Oakland Raiders,Raiders,Oakland,AFC,AFC West,23,23,21
+WAS,Washington Redskins,Redskins,Washington DC,NFC,NFC East,32,23,22
+DAL,Dallas Cowboys,Cowboys,Dallas,NFC,NFC East,9,22,23
+CAR,Carolina Panthers,Panthers,Charlotte,NFC,NFC South,5,22,24
+BUF,Buffalo Bills,Buffalo Bills,Buffalo,AFC,AFC East,4,21,25
+NE,New England Patriots,Patriots,Boston,AFC,AFC East,19,21,26
+ATL,Atlanta Falcons,Falcons,Atlanta,NFC,NFC South,2,21,27
+NYG,New York Giants,NY Giants,New York,NFC,NFC East,21,20,28
+PHI,Philadelphia Eagles,Eagles,Philadelphia,NFC,NFC East,24,20,29
+LA,Los Angeles Rams,Rams,Los Angeles,NFC,NFC West,29,19,30
+DET,Detroit Lions,Lions,Detroit,NFC,NFC North,11,19,31
+HOU,Houston Texans,Texans,Houston,AFC,AFC South,13,14,32
